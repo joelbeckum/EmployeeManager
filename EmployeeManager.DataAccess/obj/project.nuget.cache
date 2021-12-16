@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+h6fejK1NX80Argk1bKhv5ZLsG4QMHKWkQfwoVUHC3LxB66mJo9lSR1kDWiyjMHvgvviK8O9L/CO8p31ep8aQ==",
+  "dgSpecHash": "lVXbdug7SnnNdYf4kdZDLGAqYCpW6oLXBO1vlbHsCZeq9Vxd+yuT5bWn3+2JhZVNUNf+uJIM7PaW8SyoD1SWoQ==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
+  "projectFilePath": "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

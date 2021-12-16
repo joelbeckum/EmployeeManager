@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTt8uD5xE5ai2m12sDKJiZNw3+XhDxz2Q4Y06Nbmg7pcB/pJT5L0NQaEsXcMfq5+rRjqhqTeI0pj0BGkHNMHcw==",
+  "dgSpecHash": "P9pijcsjpCQ/a6F99wlwzCzdHcePilN1/v338HtHDERLndv75kDtx0zqb9qGsL9VkDk1TFzx8DiFOmSXpVsGbg==",
   "success": true,
-  "projectFilePath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
+  "projectFilePath": "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

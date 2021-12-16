@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj": {}
+    "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj": {
+    "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
+        "projectUniqueName": "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
         "projectName": "EmployeeManager.Common",
-        "projectPath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
-        "packagesPath": "C:\\Users\\kille\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\obj\\",
+        "projectPath": "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj",
+        "packagesPath": "C:\\.nuget\\packages",
+        "outputPath": "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "\\\\ac2knyc0203\\userdata\\cbecku\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ab-privateclient/_packaging/ab-privateclient/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -58,24 +59,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj": {
+    "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
+        "projectUniqueName": "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
         "projectName": "EmployeeManager.DataAccess",
-        "projectPath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\kille\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.DataAccess\\obj\\",
+        "projectPath": "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj",
+        "packagesPath": "C:\\.nuget\\packages",
+        "outputPath": "C:\\Learning\\EmployeeManager\\EmployeeManager.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "\\\\ac2knyc0203\\userdata\\cbecku\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,14 +85,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ab-privateclient/_packaging/ab-privateclient/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj": {
-                "projectPath": "D:\\workspace\\wpf\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj"
+              "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj": {
+                "projectPath": "C:\\Learning\\EmployeeManager\\EmployeeManager.Common\\EmployeeManager.Common.csproj"
               }
             }
           }
@@ -120,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
