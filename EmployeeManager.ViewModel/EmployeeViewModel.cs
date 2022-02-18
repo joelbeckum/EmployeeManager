@@ -1,5 +1,6 @@
 ﻿using EmployeeManager.Common.DataProvider;
 using EmployeeManager.Common.Model;
+using EmployeeManager.ViewModel.Command;
 using System;
 using System.ComponentModel;
 
@@ -14,7 +15,10 @@ namespace EmployeeManager.ViewModel
     {
       _employee = employee;
       _employeeDataProvider = employeeDataProvider;
+      SaveCommand = new DelegateCommand(Save, () => CanSave);
     }
+
+    public DelegateCommand SaveCommand { get; }
 
     public string FirstName
     {
@@ -26,6 +30,7 @@ namespace EmployeeManager.ViewModel
           _employee.FirstName = value;
           RaisePropertyChanged();
           RaisePropertyChanged(nameof(CanSave));
+          SaveCommand.RaisCanExecuteChanged();
         }
       }
     }
@@ -43,7 +48,20 @@ namespace EmployeeManager.ViewModel
       }
     }
 
-    public int JobRoleId
+        public DateTime EntryDateTime
+        {
+            get => _employee.EntryDate.DateTime;
+            set
+            {
+                if (_employee.EntryDate != value)
+                {
+                    _employee.EntryDate = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
+
+        public int JobRoleId
     {
       get => _employee.JobRoleId;
       set

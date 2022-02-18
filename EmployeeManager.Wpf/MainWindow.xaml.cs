@@ -22,10 +22,19 @@ namespace EmployeeManager.Wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainViewModel _viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainViewModel(new EmployeeDataProvider());
+            _viewModel = new MainViewModel(new EmployeeDataProvider());
+            DataContext = _viewModel;
+            Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            _viewModel.Load();
         }
     }
 }
